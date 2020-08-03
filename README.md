@@ -1,4 +1,4 @@
-A repository for the development of a personal website, utilizing html/css + JavaScript.
+A repository for the development of a personal portfolio website, utilizing html/css + JavaScript.
 
 The intention of this project is to learn, and solidify front-end development, while preparing portfolio content/a portfolio presentation medium.
 
