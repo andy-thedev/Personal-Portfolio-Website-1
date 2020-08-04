@@ -3,10 +3,6 @@ A repository for the development of a personal portfolio website, utilizing html
 The intention of this project is to learn, and solidify front-end development, while preparing portfolio content/a portfolio presentation medium.
 
 css (folder) -> a folder containing all css files utilized
-
-  font_awesome.css -> For social icons (to be implemented)
-
-  googlefont.css -> For selecting text fonts
   
   normalize.css -> For normalizing specifications between displays of different resolution and sizes
 
@@ -14,4 +10,10 @@ css (folder) -> a folder containing all css files utilized
 
 img (folder) -> a folder containing all photos utilized
 
+js (folder) -> a folder containing Javascript file(s)
+
+  index.js -> Implements dynamics on the navigation menu constructed in index.html
+
 index.html -> The main html file
+
+portfolio-item1.html -> An html for a linked personal work item page, for when an item in the "My Work" section is clicked on
