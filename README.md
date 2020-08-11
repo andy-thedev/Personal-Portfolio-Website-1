@@ -17,3 +17,5 @@ js (folder) -> a folder containing Javascript file(s)
 index.html -> The main html file
 
 portfolio-item1.html -> An html for a linked personal work item page, for when an item in the "My Work" section is clicked on
+...
+portfolio-item6.html -> An html for a linked personal work item page, for when an item in the "My Work" section is clicked on
