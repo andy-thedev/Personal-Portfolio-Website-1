@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <!--Accounting for different device resolutions-->
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Andy Portfolio Website</title>
+        <link rel="stylesheet" href="css/normalize.css">
+
+        <!--For social icons, utilized in the footer-->
+        <script src="https://kit.fontawesome.com/01d2fb86c6.js" crossorigin="anonymous"></script>
+
+        <!--For text fonts-->
+        <link rel="stylesheet" href=https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <!--Logo for top left corner-->
+            <div class="logo">
+                <!--We do not need an alt, since, if the logo does not appear, it is not crucial-->
+                <img src="img/dev_logo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-abel="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <!--Navigation Links-->
+            <nav class="nav">
+                <!--The double underscore indicates a branch class of a bigger class-->
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <section class="intro" id="project6">
+            <h1 class="section__title section__title--intro">
+                Movie Review Classification <strong>Neural Networks</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">The ML approach to text classification</p>
+            <img src="img/portfolio-06.jpg" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p> 
+                Since about 2010, neural networks have been extremely successful in the domain of Natural Language Processing (NLP). A neural network's capabilities of
+                interpreting extremely complex patterns has allowed for the rapid development in neural network implementations for the tasks related to NLP, which
+                quickly melted into our daily lives. Some renown examples are: Apple's SIRI, and automated video captions.
+            </p>
+            <p>
+                In this project, the model takes a movie review (ie: .txt file), and determines if the movie review is likely to be positive or negative 
+                (a good movie experience/bad movie experience), determined by an embedding layer of word vectors, and their respective angles.
+            </p>
+            <p>
+                Program: Python
+            </p>
+            <p>
+                Libraries utilized: Tensorflow, keras, numpy
+            </p>
+            <p>
+                Accuracy achieved: 88.72%
+            </p>
+            <p>
+                The code, and further information may be found in <a href="https://github.com/dnjsxo1860/Movie-Review-Text-Classification">this github link</a>
+            </p>
+        </div>
+
+        <!--Footer-->
+        <footer class="footer">
+            <a href="mailto:andy1860111@gmail.com" class="footer__link">andy1860111@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/dnjsxo1860">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/won-tae-jung/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
