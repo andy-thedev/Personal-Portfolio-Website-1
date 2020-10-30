@@ -1,3 +1,5 @@
+My website can be visited at: https://www.wontaejungportfolio.com/, or through the contacts link in my github description (https://github.com/dnjsxo1860)
+
 A repository for the development of a personal portfolio website, utilizing html/css + JavaScript.
 
 The intention of this project is to learn, and solidify front-end development, while preparing portfolio content/a portfolio presentation medium.
