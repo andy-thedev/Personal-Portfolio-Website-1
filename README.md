@@ -4,7 +4,7 @@ A repository for the development of a personal portfolio website, utilizing html
 
 This repository is linked via Netlify. I strongly suggest this tool for those who are looking to deploy a static website.
 
-(The static website contained within this repository is deployed via Netlify, which is updated real-time by GIT BASH version control)
+(The static website contained within this repository is deployed via Netlify, which is updated real-time by GIT BASH version control from my local drive)
 
 The intention of this project is to learn, and solidify front-end development, while preparing portfolio content/a portfolio presentation medium.
 
