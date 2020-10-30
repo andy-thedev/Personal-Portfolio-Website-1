@@ -22,7 +22,9 @@
             <!--Logo for top left corner-->
             <div class="logo">
                 <!--We do not need an alt, since, if the logo does not appear, it is not crucial-->
-                <img src="img/dev_logo.png" alt="">
+                <a href="#home">
+                    <img src="img/dev_logo.png" alt="">
+                </a>
             </div>
             <button class="nav-toggle" aria-abel="toggle navigation">
                 <span class="hamburger"></span>
@@ -32,9 +34,10 @@
                 <!--The double underscore indicates a branch class of a bigger class-->
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">What I do</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
                     <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -45,7 +48,7 @@
             <h1 class="section__title section__title--intro">
                 Hi, I am <strong>Andy Jung</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">AI/Software dev</p>
+            <p class="section__subtitle section__subtitle--intro">Full-Stack/Software dev</p>
             <img src="img/dev_andy_profile.jpg" alt="a picture of andy" class="intro__img">
         </section>
 
@@ -54,38 +57,80 @@
             <h2 class="section__title section__title--services">What I do</h2>
             <div class="services">
                 <div class="service">
-                    <h3>Design + Development</h3>
-                    <p> While attending the University of Toronto, I was able to learn the theoretical aspects
-                        of statistics, mathematics, and computer science. However, there were not many opportunities
-                        within the school curriculum to apply, and implement these techniques into real-life scenarios
-                        and needs. In this respect, I began designing, and implementing personal projects and algorithms, 
-                        exercising in practical application. Since various tasks involve different types of knowledge,
-                        the constant motivation towards real-life application has taught me numerous ideas and techniques.
-                        I am currently interested in designing and developing 
-                        projects and tasks related to machine learning, statistical analysis, data mining, and full-stack.
+                    <h3>Full-Stack</h3>
+                    <p>
+                        Ever since I began coding, full-stack development always seemed like an intriguing field to me. 
+                    </p>
+                    <p>
+                        Being able to take an idea, and implement a fully working, presentable product seemed like an infinite domain of possibilities.
+                    </p>
+                    <p>
+                        Starting with an empty, skeletal App.js file, often times, I am a user, a client, a manager, the developer, at every step until it becomes,
+                        let's say, an ecommerce website.
+                    </p>
+                    <p>
+                        And one day, if one of those websites took <br>
+                        work off of someone's shoulders, <br>
+                        or made someone say:
+                    </p>
+                    <p>
+                        "time well spent!"
+                    </p>
+                    <p>
+                        Maybe, it was a good idea.
                     </p>
                 </div>
 
                 <div class="service">
-                    <h3>Team Work</h3>
-                    <p> Shortly after graduation, I wanted to partake in projects that were outside of my personal capacity,
-                        and work with teammates, that I could trust for a long time. So I began contemplating potential team members that, although may be in a different
-                        field, were thinking, and headed towards a common direction. Through much thought and consideration,
-                        I was fortunate enough to unionise with two colleagues, and I work with them to this day. We are currently tackling tasks, that can
-                        combine our specialites, such as data analysis, machine learning, and full-stack development to
-                        sharpen our cooperative skills, and solve larger tasks that require multiple skillsets.
+                    <h3>Skills</h3>
+                    <p> 
+                        Language/Version Control: <br>
+                        Python, Java, R, GIT BASH
+                    </p>
+                    <p> 
+                        Front End: <br>
+                        ReactJS, HTML, CSS,<br>
+                        Redux, RESTful API
+                    </p>
+                    <p> 
+                        Back End: <br>
+                        NodeJS, ExpressJS
+                    </p>
+                    <p> 
+                        Databases: <br>
+                        MongoDB, MySQL
+                    </p>
+                    <p>
+                        Machine Learning: <br>
+                        TensorFlow, Keras, Sklearn, Pandas,<br>
+                        Numpy, Jupyter Notebook
+                    </p>
+                    <p>
+                        Design: Photoshop 2020, <br>
+                        +Strong Foundations in Visual Art
                     </p>
                 </div>
 
                 <div class="service">
-                    <h3>Personal Work</h3>
-                    <p> I have designed, and implemented numerous neural network algorithms, such as a video-game AI, pixel 
-                        classification model, and a text-classifier. I have also implemented common
-                        techniques, such as linear regression, SVM, KNN, and K Means in practical scenarios, with existing data.
-                        I made statistical analysis on various data, such as market value, and behavioural studies utilizing R,
-                        and implemented websites and applications with the purpose of learning the front and back-end structures. 
-                        The notable languages and programs that I currently use are: HTML, CSS, JS, Python, R, Java,
-                        MySQL, Tensorflow, keras, sklearn, Android Studio, and Git BASH for collaboration.
+                    <h3>Machine Learning</h3>
+                    <p> 
+                        During my studies, I was able to study the theoretical and statistical aspects of machine learning. 
+                    </p>
+                    <p> 
+                        Aware of the field's potential, and applicative versatility, I practised by exercising personal projects, 
+                        often in personal interest.
+                    </p>
+                    <p>
+                        ie: From taking interest in this year's U.S. election, I cleaned, and performed data analysis on 2016's results
+                        to see if a meaningful prediction can be made for 2020.
+                    </p>
+                    <p>
+                        So to this day, I am continuing my studies, in the machine learning field, to perhaps, save time, or complete
+                        tasks that would otherwise be unreasonable to complete.
+                    </p>
+                    <p>
+                        Eventually, I believe it will be my: <br>
+                        "time well spent!"
                     </p>
                 </div>
             </div>
@@ -96,15 +141,17 @@
         <!--About Me-->
         <section class="about-me" id="about">
             <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about">Statistical machine learning specialist</p>
+            <p class="section__subtitle section__subtitle--about">Recent graduate from the University of Toronto!</p>
 
             <div class="about-me__body">
-                <p> I am Won Tae(Andy) Jung, a recent graduate from the University of Toronto. I specialized in statistical data mining and machine learning, and I wish to
-                    eventually work in a relevant field, such as machine learning, data science, and full-stack development.
+                <p> 
+                    I am Won Tae(Andy) Jung.
                 </p>
-                <p> I am especially interested in machine learning. Initially, I began as a computer science student, but was quickly fascinated by the capabilities, and
-                    work processes in the machine learning field, and I am certain of its potential in the future, as I believe it will change numerous lives and industries.
-                    One day, I hope to become a competent professional myself, to help solve the problems and needs in the world, with this promising domain.
+                <p>
+                    I specialized in statistical data mining and machine learning during university, 
+                    and I love playing games in my spare time. My appreciation for video games, especially on the computer,
+                    led to much familiarity in digital settings, ever since I was a kid, which eventually sparked my
+                    interest in this field.
                 </p>
             </div>
 
@@ -118,6 +165,11 @@
 
 
             <div class="portfolio">
+                <!--Portfolio item 00-->
+                <a href="portfolio-item0.html#project0" class="portfolio__item">
+                    <img src="img/portfolio-00.jpg" alt="" class="portfolio__img">
+                </a>
+
                 <!--Portfolio item 01-->
                 <a href="portfolio-item1.html#project1" class="portfolio__item">
                     <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
@@ -147,32 +199,12 @@
                 <a href="portfolio-item6.html#project6" class="portfolio__item">
                     <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
                 </a>
-
-                <!--Portfolio item 07-->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
-                </a>
-
-                <!--Portfolio item 08-->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
-                </a>
-
-                <!--Portfolio item 09-->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
-                </a>
-
-                <!--Portfolio item 10-->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
-                </a>
             </div>
         </section>
 
         <!--Footer-->
-        <footer class="footer">
-            <a href="mailto:andy1860111@gmail.com" class="footer__link">andy1860111@gmail.com</a>
+        <footer class="footer" id="contact">
+            <a href="mailto:wontae.andyjung@gmail.com" class="footer__link">wontae.andyjung@gmail.com</a>
             <ul class="social-list">
                 <li class="social-list__item">
                     <a class="social-list__link" href="https://github.com/dnjsxo1860">

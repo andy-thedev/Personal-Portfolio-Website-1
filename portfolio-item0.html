@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <!--Accounting for different device resolutions-->
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Andy Portfolio Website</title>
+        <link rel="stylesheet" href="css/normalize.css">
+
+        <!--For social icons, utilized in the footer-->
+        <script src="https://kit.fontawesome.com/01d2fb86c6.js" crossorigin="anonymous"></script>
+
+        <!--For text fonts-->
+        <link rel="stylesheet" href=https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <!--Logo for top left corner-->
+            <div class="logo">
+                <!--We do not need an alt, since, if the logo does not appear, it is not crucial-->
+                <a href="index.html">
+                    <img src="img/dev_logo.png" alt="">
+                </a>
+            </div>
+            <button class="nav-toggle" aria-abel="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <!--Navigation Links-->
+            <nav class="nav">
+                <!--The double underscore indicates a branch class of a bigger class-->
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <section class="intro" id="project0">
+            <h1 class="section__title section__title--intro">
+                eCommerce<strong>MERN Stack</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">User-friendly, maintainable build</p>
+            <img src="img/portfolio-00.jpg" alt="" class="intro__img">
+        </section>
+
+        
+        <div class="portfolio-item-individual">
+            <div class="portfolio-page-main-wrapper">
+                <p>
+                    This project demonstrates a fully functioning eCommerce website, utilizing the MERN (MongoDB, Express, React, Node) stack. <br>
+                </p>
+
+                <img src="img/ecommercecode.jpg" alt="" class="portfolio-item-img">
+                <div></div>
+                <p>
+                    Front end: ReactJS, HTML, CSS, Redux <br>
+                    Back end: NodeJS, ExpressJS, RESTful API <br>
+                    Database: MongoDB <br>
+                    Version Control: GIT BASH <br>
+                </p>
+                <img src="img/ecommerce.jpg" alt="" class="portfolio-item-img">
+                <p>
+                    Controlled user/admin management available through UI. <br>
+                    JWT authetication, user profile, effective cookie usage. <br>
+                </p>
+                <img src="img/ecommercesidebar.jpg" alt="" class="portfolio-item-img">
+                <p>
+                    Display by category/brand/etc. <br>
+                    Sort by latest arrival/price/etc. <br>
+                    Maximize reusability with effective component use. <br>
+                    (ie: navigation menu, and category sidebar)
+                </p>
+                <img src="img/ecommercemodal.jpg" alt="" class="portfolio-item-img">
+                <p>
+                    Admins may create, read, update and delete products/product information. <br>
+                </p>
+                <p>
+                    Images are uploaded automatically to the database. <br>
+                </p>
+                <p>
+                    No restarts or refreshes are needed to update rendering information. <br>
+                    All changes are reflected instantaneously in display.
+                </p>
+                <img src="img/ecommercecart.jpg" alt="" class="portfolio-item-img">
+                <p>
+                    Keeps profile of cart information until sign-out. <br>
+                    The user may delete, or change the quantity of items, as expected.
+                </p>
+                <p>
+                    There are more features for demonstration yet to be shown. <br>
+                    This page will be updated consistently (Last Updated: 10/30/2020)
+                </p>
+                <p>
+                    The website is still in development (10/30/2020). <br>
+                    The code, and further information may be found in <a href="https://github.com/dnjsxo1860/Online-Shopping-Website">this github link</a>
+                </p>
+            </div>
+        </div>
+
+        
+
+        <!--Footer-->
+        <footer class="footer">
+            <a href="mailto:andy1860111@gmail.com" class="footer__link">andy1860111@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/dnjsxo1860">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/won-tae-jung/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
