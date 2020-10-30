@@ -1,4 +1,4 @@
-My website can be visited at: https://www.wontaejungportfolio.com/, or through the contacts link in my github description (https://github.com/dnjsxo1860)
+My website can be visited at: https://www.wontaejungportfolio.com/, or through the contacts link in my LinkedIn description (https://www.linkedin.com/in/won-tae-jung/detail/contact-info/)
 
 A repository for the development of a personal portfolio website, utilizing html/css + JavaScript.
 
