@@ -33,7 +33,7 @@
           0.125em 0.125em 0.15em rgba(0,0,0,.15);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
     :root {
         --fs-h1: 4.5rem;
         --fs-h2: 3.75rem;
@@ -47,6 +47,12 @@
 html {
     /*for smooth scrolling, when redirected to different parts of the page via ie: a button*/
     scroll-behavior: smooth;
+
+    /* Fit to Screen */
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 /* Body */
@@ -54,10 +60,15 @@ html {
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
-    margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+
+    /* Fit to Screen */
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 /*paddings on the top & bottom, right & left to keep elements from touching the sides of the screen */
@@ -66,6 +77,11 @@ section {
 }
 
 img {
+    display: block;
+    max-width: 100%;
+}
+
+video {
     display: block;
     max-width: 100%;
 }
@@ -365,7 +381,7 @@ header {
     margin: 0auto;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
     .services {
         /*Makes paragraphs into side by side columns, rather than above and below one another in bigger screens*/
         /*
@@ -386,6 +402,7 @@ header {
     }
 }
 
+/* About Me Layout--------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 .about-me {
     max-width: 1000px;
@@ -467,6 +484,12 @@ header {
     opacity: .75;
 }
 
+@media (max-width: 300px) {
+    .portfolio {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
 /* Footer Layout---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .footer {
@@ -537,12 +560,12 @@ header {
 }
 
 .portfolio-item-individual video {
-    margin-bottom: 2rem;
+    margin: 2rem auto;
 }
 
 .portfolio-video-description {
-    margin-bottom: 2rem;
-    margin-top: 2.5rem;
+    margin: 2rem auto;
+    font-style: italic;
     font-weight: 100;
     font-size: 1rem;
 }

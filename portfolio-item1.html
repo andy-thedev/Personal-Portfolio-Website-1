@@ -41,7 +41,6 @@
             </nav>
         </header>
 
-
         <section class="intro" id="project1">
             <h1 class="section__title section__title--intro">
                 Flappy Bird AI <strong>Neural Networks</strong>
@@ -51,21 +50,20 @@
         </section>
 
         <div class="portfolio-page-main-wrapper">
-
             <div class="portfolio-item-individual">
                 <p>"Flappy Bird" is a side-scrolling game released in 2013, where the player controls a bird, and attempts to fly between green pipes without hitting them.
                     Despite its simplistic mechanic and design, the game is renown for its high level of difficulty, and addictiveness. In this project, I recreated "Flappy Bird",
                     and developed an AI algorithm that learns how to progress through the game endlessly, utilizing neural networks. 
                 </p>
+
                 <div class="portfolio-video-description">
                     Below: Flappy Bird A.I. in action. Optimal in two generations with NEAT.
                 </div>
-                <div class="portfolio-item-individual">
-                    <video width="500" height="832" controls>
-                        <source src="video/flappybird.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
+                <video controls>
+                    <source src="video/flappybird.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
                 <p>Images of the elements contained in the game was downloaded as .png files. When the game starts, the bird, pipe, and base objects are created, and the bird's
                 collision with the obstacles is detected by the mask function provided by the pygame library. It detects the exact pixel locations of each element, and allows
                 for specific overlap examinations between the bird, and its surrounding objects. To maneuver through the game, the bird may choose to jump at a fixed velocity, 
@@ -86,6 +84,7 @@
                 </p>
             </div>
         </div>
+
         <!--Footer-->
         <footer class="footer">
             <a href="mailto:wontae.andyjung@gmail.com" class="footer__link">wontae.andyjung@gmail.com</a>
