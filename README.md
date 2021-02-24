@@ -1,29 +1,28 @@
-My website can be visited at: https://www.wontaejungportfolio.com/, or through the contacts link in my LinkedIn description (https://www.linkedin.com/in/won-tae-jung/detail/contact-info/)
+# Personal Portfolio Website (SEE NEWER VERSION AT https://github.com/andy-thedev/Personal-Portfolio-Website-2)
 
-A repository for the development of a personal portfolio website, utilizing html/css + JavaScript.
+A repository containing my (old) personal portfolio website.
+
+Front-end: HTML, CSS, JavaScript
 
 This repository is linked via Netlify. I strongly suggest this tool for those who are looking to deploy a static website.
 
-(The static website contained within this repository is deployed via Netlify, which is updated real-time by GIT BASH version control from my local drive)
+## /
 
-The intention of this project is to learn, and solidify front-end development, while preparing portfolio content/a portfolio presentation medium.
+**/img:**  
+A folder containing all photos utilized
 
-css (folder) -> a folder containing all css files utilized
-  
-  normalize.css -> For normalizing specifications between displays of different resolution and sizes
+**index.html:** The main html file (homepage)
 
-  style.css -> The main css file for organizing, and manipulating the presentation of the contents within the html file
+**portfolio-item1.html ~ portfolio-item6.html:**  
+The individual pages for each of my works, for when an item in the "My Work" section is clicked on
 
-img (folder) -> a folder containing all photos utilized
+## /css
+**normalize.css:**  
+For normalizing specifications between displays of different resolution and sizes
 
-js (folder) -> a folder containing Javascript file(s)
+**style.css:**  
+The main css file for organizing, and manipulating the presentation of the contents within the html file
 
-  index.js -> Implements/handles events for the navigation menu constructed in index.html
-
-index.html -> The main html file
-
-portfolio-item1.html -> An html for a linked personal work item page, for when an item in the "My Work" section is clicked on
-
-...
-
-portfolio-item6.html -> An html for a linked personal work item page, for when an item in the "My Work" section is clicked on
+## /js
+**index.js:**  
+Implements/handles events for the navigation menu constructed in index.html
